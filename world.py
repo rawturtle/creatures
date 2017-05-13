@@ -14,13 +14,13 @@ numTurns = 100
 perceptFormat=2
 
 # You can change this number to chnage the world size
-gridSize = 24 
+gridSize=24
 
 # You can set this mode to True to have same initial conditions for each simulation in each generation.  Good
 # for development, when you want to have some determinism in how the world runs from generatin to generation.
-repeatableMode = True
+repeatableMode=False
 
-# This is a class implementing you creature a.k.a MyCreature. It extends the basic Creature, which provides the
+# This is a class implementing you creature a.k.a MyCreature.  It extends the basic Creature, which provides the
 # basic functionality of the creature for the world simulation.  Your job is to implement the AgentFunction
 # that controls creature's behavoiur by producing actions in respons to percepts.
 class MyCreature(Creature):
